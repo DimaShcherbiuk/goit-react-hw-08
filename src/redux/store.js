@@ -39,3 +39,5 @@ export const store = configureStore({
 export const persistor = persistStore(store);
 
 // hw08rc@mail.com
+
+// jack@mail.com
