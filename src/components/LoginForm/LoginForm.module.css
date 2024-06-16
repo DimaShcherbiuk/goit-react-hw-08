@@ -1,9 +1,37 @@
-.form {
-  width: 320px;
-}
-
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 18px;
+  width: 320px;
+}
+
+.field {
+  margin-top: 4px;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #fff;
+  background: #4e75ff;
+}
+
+.button:hover {
+  background: #2b53e3;
 }

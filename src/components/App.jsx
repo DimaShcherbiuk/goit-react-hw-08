@@ -1,4 +1,4 @@
-// import css from "./App.module.css";
+import css from "./App.module.css";
 import { lazy, Suspense, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
@@ -24,9 +24,9 @@ function App() {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <div>REFRESHING USER...</div>
+    <div className={css.container}>REFRESHING USER...</div>
   ) : (
-    <Layout>
+    <Layout className={css.container}>
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<HomePage />} />

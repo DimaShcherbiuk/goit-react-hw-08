@@ -61,5 +61,3 @@ export const refreshUser = createAsyncThunk(
     },
   }
 );
-
-// hw08rc@mail.com

@@ -19,7 +19,7 @@ export default function ContactsPage() {
 
   return (
     <div className={css.container}>
-      <h1>Phonebook</h1>
+      <h1>PhoneBook</h1>
       <ContactForm />
       <SearchBox />
       {isLoading && <Loader />}
